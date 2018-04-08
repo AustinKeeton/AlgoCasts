@@ -10,6 +10,8 @@ function reverse(str) {
     return str.split('').reduce((rev, curr) => `${curr}${rev}`, '');
 }
 
+reverse('asdf');
+
 // function reverse(str) {
 //    return str.split('').reverse().join('');
 // }
